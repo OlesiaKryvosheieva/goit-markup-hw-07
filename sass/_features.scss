@@ -1,0 +1,48 @@
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.features {
+  display: flex;
+  padding-top: 94px;
+  padding-bottom: 47px;
+
+  &__icon {
+    background-color: #f5f4fa;
+    border-radius: 4px;
+    margin-bottom: 30px;
+
+    display: flex;
+    width: 270px;
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__title {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+
+  &__text {
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+  }
+
+  &__item:not(:last-child) {
+    margin-right: 30px;
+  }
+}
