@@ -13,8 +13,11 @@
 
 .features {
   display: flex;
-  padding-top: 94px;
-  padding-bottom: 47px;
+  
+  &-section {
+    padding-top: 94px;
+    padding-bottom: 47px;
+  }
 
   &__icon {
     background-color: #f5f4fa;

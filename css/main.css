@@ -134,9 +134,9 @@ h3 {
   background-repeat: no-repeat;
   background-size: cover;
   max-width: 1600px;
-  height: 600px;
   padding-top: 200px;
   padding-bottom: 200px;
+  margin: 0 auto;
 }
 .hero-title {
   width: 696px;
@@ -186,6 +186,8 @@ h3 {
 
 .features {
   display: flex;
+}
+.features-section {
   padding-top: 94px;
   padding-bottom: 47px;
 }
@@ -217,6 +219,9 @@ h3 {
 
 .our-work {
   display: flex;
+}
+.our-work-section {
+  padding-top: 47px;
   padding-bottom: 94px;
 }
 .our-work .item:not(:last-child) {
@@ -225,7 +230,6 @@ h3 {
 }
 .our-work-title {
   margin-bottom: 50px;
-  padding-top: 47px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
